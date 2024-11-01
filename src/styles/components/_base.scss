@@ -1,0 +1,42 @@
+html{
+    font-size: 54.5%; /* 1rem == 14px   10px*/
+    box-sizing: border-box;
+}
+
+@media(min-width:768px){
+    html{
+        font-size: 62.5%;  /* 1rem == 16px */
+    }
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1{
+    font-size: 6.104rem;
+}
+h2{
+    font-size: 4.8848rem;
+}
+h3{
+    font-size: 3.9056rem;
+}
+h4{
+    font-size: 3.1248rem;
+}
+
+.contenedor{
+    width: min(95%, 80rem);
+    margin: 0 auto;
+
+    h1{
+        text-align: center;
+    }
+}

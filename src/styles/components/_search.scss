@@ -1,0 +1,13 @@
+.search{
+    margin: 2rem auto;
+    width: 95%;
+    padding: 1rem 2rem;
+    border: 1px solid rgba(#000, 0.5);
+    border-radius: 0.75rem;
+    box-shadow: 1px 1px 10px 5px rgba(#000, 0.1);
+    font-size: 2rem;
+
+    &:active, &:focus{
+        outline-color: #dc6a52;
+    }
+}
